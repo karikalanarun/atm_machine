@@ -6,12 +6,23 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.5.0",
+    "crocks": "^0.12.4",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.1.0",
+    "ramda": "^0.27.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "reactstrap": "^8.5.1",
+    "sequelize": "^6.2.3"
   },
   "scripts": {
     "start": "react-scripts start",
+    "test:server": "jest ",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -30,5 +41,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.1.0"
+  },
+  "proxy": "http://localhost:3200"
 }
